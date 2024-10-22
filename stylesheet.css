@@ -1,8 +1,9 @@
 body {
     background-color: gray; /* changed so it is easier on the eyes*/
-    color: wheat;
-    font-family: "Raleway", sans-serif; 
-    font-optical-sizing: auto;   
+    color: black;
+    font-family: "Londrina Shadow", sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 
@@ -12,16 +13,17 @@ body {
     width: 200px;
     height: 60px;
     font-size: 18px;
+    line-height: 24.26px;
     top: 67px;
     left: 60px;
     border: 1px solid wheat;
     border-radius: 5px;
-    padding: 20px;
     margin: 40px 30px 30px 40px;
     align-content: center;
-    font-family: "Raleway", sans-serif; 
-    font-optical-sizing: auto;  
-    font-weight: 160;
+    font-family: "Londrina Shadow", sans-serif;
+    font-style: normal;  
+    font-weight: 400;
+    font-size: xx-large;
 }
 
 #seeMoreWht {
@@ -35,9 +37,10 @@ body {
     left: 60px;
     font-size: 18px;
     line-height: 24.26px;
-    align-content: center;
-    font-family: "Orbitron", sans-serif;
-    font-weight: 160;
+    font-family: "Londrina Shadow", sans-serif;
+    font-style: normal;  
+    font-weight: 400;
+    font-size: xx-large;
 
 }
 
@@ -46,15 +49,55 @@ body {
     
 }
 
+.navBar1 {
+    background-color: wheat;
+    color: black;
+   
+    
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    text-decoration: none;
+
+}
+
+.navBar1 a {
+    color:  black;
+    float: left;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: 5px;
+    padding: 10px 20px 0px 20px;
+    text-decoration: none;
+}
+
+#navButton {
+    background-color: wheat;
+    border-radius: 10px;
+    position: relative;
+    right: 60px;
+    top: 5px;
+   
+    height: 30px;
+    text-align: center;
+    font-family: "Londrina Shadow", sans-serif;
+    font-style: normal; 
+}
+
+
+
 .card {
     float: left;
     background-color: wheat;
     border: 1px solid black;
     color: black;
-    margin-top: 30px;
+    margin-top: px;
     margin-left: 40px;
     width: 270px;
     height: 436px;
+   
 }
 
 
@@ -62,17 +105,20 @@ body {
 #cardBlog {
     background-color: wheat;
     border: 1px solid black; 
+    font-size: x-large;
 }
 
 #cardBlogTitle {
-  padding-left: 20px;
-  padding-bottom: 15px;
+    top: 40px;
+    padding-left: 15px;
+ 
 }
 
 #seeMoreCB {
-  margin: 10px;
-  padding-top: 20px;
+  margin: 0px;
+  padding-top: 5px;
   padding-left: 15px;
+  font-size: x-large;
 }
 
 #priceCard {
@@ -81,6 +127,7 @@ body {
     align-items: center;
     flex-direction: column;
     align-content: space-around;
+    font-size: larger;
     
 }
 
@@ -100,14 +147,58 @@ body {
 }
 
 #priceCarInfo { 
-
-    list-style: none;
     text-align: center;
-    font-weight: 200;
+    margin: 0px 0px 20px 0px;
+    font-weight: 400;
+    
+    
    
 }
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+}
+
 #priceButton {
-    margin-top: 30px;
+    background-color: wheat;
+    border-radius: 10px;;
+    margin-top: 20px;
     padding: 10px;
     width: 150px;
+    font-family: "Londrina Shadow", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
 }
+
+#cardSquare {
+
+    width: 370px;
+    height: 502px;
+    top: 191px;
+    left:696px
+}
+
+#cardSquareImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 11%;
+}
+
+#cardBody {
+    margin-left: 15px;
+    font-size: larger;
+
+}
+
+#seeMoreSQ {
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: larger;
+  }
+
+
