@@ -1,0 +1,113 @@
+body {
+    background-color: gray; /* changed so it is easier on the eyes*/
+    color: wheat;
+    font-family: "Raleway", sans-serif; 
+    font-optical-sizing: auto;   
+}
+
+
+#seeMoreBlk {
+    background-color: black;
+    color: wheat;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    top: 67px;
+    left: 60px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 40px 30px 30px 40px;
+    align-content: center;
+    font-family: "Raleway", sans-serif; 
+    font-optical-sizing: auto;  
+    font-weight: 160;
+}
+
+#seeMoreWht {
+    background-color: wheat;
+    color: black;
+    border: 1px solid black;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    top: 67px;
+    left: 60px;
+    font-size: 18px;
+    line-height: 24.26px;
+    align-content: center;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 160;
+
+}
+
+.buttons {
+    margin: 30px 20px 20xp 20px;
+    
+}
+
+.card {
+    float: left;
+    background-color: wheat;
+    border: 1px solid black;
+    color: black;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 270px;
+    height: 436px;
+}
+
+
+
+#cardBlog {
+    background-color: wheat;
+    border: 1px solid black; 
+}
+
+#cardBlogTitle {
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+#seeMoreCB {
+  margin: 10px;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+#priceCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    
+}
+
+#icon {
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+
+#priceCardImg {
+    top: 20px;
+    display: flex;
+   
+}
+#pcTitle {
+    text-align: center;
+}
+
+#priceCarInfo { 
+
+    list-style: none;
+    text-align: center;
+    font-weight: 200;
+   
+}
+#priceButton {
+    margin-top: 30px;
+    padding: 10px;
+    width: 150px;
+}
