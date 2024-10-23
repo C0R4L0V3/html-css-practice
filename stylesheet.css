@@ -1,4 +1,9 @@
 body {
+    background-image: url(https://i.pinimg.com/originals/e9/87/af/e987afebc88368faaa38b6bd7148b105.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     background-color: gray; /* changed so it is easier on the eyes*/
     color: black;
     font-family: "Londrina Shadow", sans-serif;
@@ -41,7 +46,6 @@ body {
     font-style: normal;  
     font-weight: 400;
     font-size: xx-large; */
-
 }
 
 .buttons {
@@ -64,10 +68,7 @@ body {
 
 .buttoncontainer {
     margin: 30px 20px 20xp 20px;
-    padding-left: 40px;
-
-    
-    
+    padding-left: 40px;  
 }
 
 .navBar1 {
@@ -107,7 +108,11 @@ body {
     font-style: normal; 
 }
 
-
+.cardcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .card {
     float: left;
@@ -132,7 +137,6 @@ body {
 #cardBlogTitle {
     top: 40px;
     padding-left: 15px;
- 
 }
 
 #seeMoreCB {
@@ -148,21 +152,19 @@ body {
     align-items: center;
     flex-direction: column;
     align-content: space-around;
-    font-size: larger;
-    
+    font-size: larger;   
 }
 
 #icon {
     border-radius: 50%;
     border: 1px solid black;
-
 }
 
 #priceCardImg {
     top: 20px;
-    display: flex;
-   
+    display: flex; 
 }
+
 #pcTitle {
     text-align: center;
 }
@@ -188,15 +190,13 @@ ul {
     font-family: "Londrina Shadow", sans-serif;
     font-style: normal;
     font-weight: 400;
-
 }
 
 #cardSquare {
-
     width: 370px;
     height: 502px;
     top: 191px;
-    left:696px
+    left:696px;
 }
 
 #cardSquareImg {
@@ -209,7 +209,6 @@ ul {
 #cardBody {
     margin-left: 15px;
     font-size: larger;
-
 }
 
 #seeMoreSQ {
